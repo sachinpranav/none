@@ -1,0 +1,64 @@
+.sct-accordion {
+  display: block;
+  margin: 20px 0;
+  padding: 12px;
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #c3c4c7;
+  outline: none;
+  transition: 0.4s;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  max-width: 420px;
+}
+.sct-active,
+.sct-accordion:hover {
+  background-color: #e1e1e1;
+}
+.sct-panel {
+  margin-top: -20px;
+  padding: 20px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  max-width: calc(420px - 40px);
+}
+.sct-accordion:after {
+  content: '\25BC';
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.sct-active:after {
+  content: "\25B2";
+}
+.cfturnstile-settings .form-table th {
+  font-size: 15px;
+}
+.cfturnstile-settings .sct-panel .form-table th {
+  width: 240px;
+}
+.cfturnstile-settings input[type="checkbox"] {
+  transform: scale(1.1);
+}
+.cfturnstile-settings .button.button-primary {
+  font-size: 15px;
+  padding: 5px 20px;
+}
+.sct-admin-promo-top .dashicons-star-filled {
+  color: orange;
+  margin-top: 5px;
+  font-size: 12px;
+  width: 12px;
+}
+.sct-admin-promo .dashicons-star-filled {
+  color: orange;
+  margin-top: 5px;
+  font-size: 15px;
+  width: 15px;
+}

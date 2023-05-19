@@ -1,0 +1,183 @@
+Log created: 2022-12-21 12:13:42
+Type: backup
+[2022-12-21 12:13:43][notice]Start backing up.
+[2022-12-21 12:13:43][notice]server info fcgi:Off max execution time: 900 wp version:6.1.1 php version:8.0.26 db version:5.7.23 php ini:safe_mode: memory_limit:256M memory_get_usage:13.78 MB memory_get_peak_usage:13.90 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-12-21 12:13:43][notice]Prepare to backup backup_db files.
+[2022-12-21 12:13:43][notice]Start exporting database.
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_actionscheduler_actions
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_actionscheduler_claims
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_actionscheduler_groups
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_actionscheduler_logs
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_cache
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_links
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_links_suggestions
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_notifications
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_posts
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_redirects
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_redirects_404
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_redirects_404_logs
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_redirects_hits
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_redirects_logs
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aioseo_terms
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aiowps_debug_log
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aiowps_events
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aiowps_failed_logins
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aiowps_global_meta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aiowps_login_activity
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aiowps_login_lockdown
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_aiowps_permanent_block
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_commentmeta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_comments
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_e_events
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_e_submissions
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_e_submissions_actions_log
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_e_submissions_values
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_links
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_action_meta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_actions
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_chunks
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_field_meta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_fields
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_form_meta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_forms
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_object_meta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_objects
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_relationships
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_nf3_upgrades
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_options
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_postmeta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_posts
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_rank_math_analytics_gsc
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_rank_math_analytics_objects
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_rank_math_internal_links
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_rank_math_internal_meta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_rank_math_redirections
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_rank_math_redirections_cache
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_term_relationships
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_term_taxonomy
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_termmeta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_terms
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_usermeta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_users
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_wpforms_tasks_meta
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_wpr_rucss_resources
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_wpr_rucss_used_css
+[2022-12-21 12:13:43][notice]Preparing to dump table wpmo_wpvivid_options
+[2022-12-21 12:13:43][notice]Exporting database finished.
+[2022-12-21 12:13:43][notice]Start compressing backup_db
+[2022-12-21 12:13:43][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_db.zip
+[2022-12-21 12:13:44][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_db.zip, filesize: 2.79 MB
+[2022-12-21 12:13:44][notice]Compressing backup_db completed
+[2022-12-21 12:13:44][notice]Backing up backup_db completed.
+[2022-12-21 12:13:44][notice]Prepare to backup backup_themes files.
+[2022-12-21 12:13:44][notice]File number: 1452
+[2022-12-21 12:13:44][notice]Start compressing backup_themes
+[2022-12-21 12:13:44][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_themes.zip
+[2022-12-21 12:13:45][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_themes.zip, filesize: 40.85 MB
+[2022-12-21 12:13:45][notice]Compressing backup_themes completed
+[2022-12-21 12:13:45][notice]Backing up backup_themes completed.
+[2022-12-21 12:13:45][notice]Prepare to backup backup_plugin files.
+[2022-12-21 12:13:45][notice]File number: 11679
+[2022-12-21 12:13:45][notice]Start compressing backup_plugin
+[2022-12-21 12:13:45][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_plugin.zip
+[2022-12-21 12:13:47][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_plugin.zip, filesize: 170.40 MB
+[2022-12-21 12:13:47][notice]Compressing backup_plugin completed
+[2022-12-21 12:13:47][notice]Backing up backup_plugin completed.
+[2022-12-21 12:13:47][notice]Prepare to backup backup_uploads files.
+[2022-12-21 12:13:47][notice]File number: 76
+[2022-12-21 12:13:47][notice]Start compressing backup_uploads
+[2022-12-21 12:13:47][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_uploads.zip
+[2022-12-21 12:13:47][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_uploads.zip, filesize: 6.14 MB
+[2022-12-21 12:13:47][notice]Compressing backup_uploads completed
+[2022-12-21 12:13:47][notice]Backing up backup_uploads completed.
+[2022-12-21 12:13:47][notice]Prepare to backup backup_content files.
+[2022-12-21 12:13:47][notice]File number: 10
+[2022-12-21 12:13:47][notice]Start compressing backup_content
+[2022-12-21 12:13:47][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_content.zip
+[2022-12-21 12:13:47][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_content.zip, filesize: 40.43 KB
+[2022-12-21 12:13:47][notice]Compressing backup_content completed
+[2022-12-21 12:13:47][notice]Backing up backup_content completed.
+[2022-12-21 12:13:47][notice]Prepare to backup backup_core files.
+[2022-12-21 12:13:47][notice]File number: 2528
+[2022-12-21 12:13:47][notice]Start compressing backup_core
+[2022-12-21 12:13:48][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_core.zip
+[2022-12-21 12:13:48][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_core.zip, filesize: 53.77 MB
+[2022-12-21 12:13:48][notice]Compressing backup_core completed
+[2022-12-21 12:13:48][notice]Backing up backup_core completed.
+[2022-12-21 12:13:48][notice]Prepare to backup backup_merge files.
+[2022-12-21 12:13:48][notice]File number: 6
+[2022-12-21 12:13:48][notice]Start compressing backup_merge
+[2022-12-21 12:13:48][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part001.zip
+[2022-12-21 12:13:55][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part001.zip, filesize: 2.24 MB
+[2022-12-21 12:13:55][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_plugin.zip
+[2022-12-21 12:13:55][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip
+[2022-12-21 12:13:59][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip, filesize: 38.53 MB
+[2022-12-21 12:13:59][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_core.zip
+[2022-12-21 12:13:59][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_themes.zip
+[2022-12-21 12:13:59][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_uploads.zip
+[2022-12-21 12:13:59][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_db.zip
+[2022-12-21 12:13:59][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_content.zip
+[2022-12-21 12:13:59][notice]Compressing backup_merge completed
+[2022-12-21 12:13:59][notice]Backing up backup_merge completed.
+[2022-12-21 12:13:59][notice]Backup completed.
+[2022-12-21 12:13:59][notice]Backup succeeded.
+[2022-12-21 12:13:59][notice]Start upload.
+[2022-12-21 12:13:59][notice]Connect site 
+[2022-12-21 12:14:00][notice]Start uploading www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part001.zip
+[2022-12-21 12:14:00][notice]{"result":"success","file_status":{"status":"start"}}
+[2022-12-21 12:14:00][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part001.zip offset 0
+[2022-12-21 12:14:01][notice]finished send chunk
+[2022-12-21 12:14:01][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part001.zip offset 2097152
+[2022-12-21 12:14:01][notice]finished send chunk
+[2022-12-21 12:14:01][notice]upload finished
+[2022-12-21 12:14:01][notice]Start uploading www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip
+[2022-12-21 12:14:02][notice]{"result":"success","file_status":{"status":"start"}}
+[2022-12-21 12:14:02][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 0
+[2022-12-21 12:14:03][notice]finished send chunk
+[2022-12-21 12:14:03][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 2097152
+[2022-12-21 12:14:04][notice]finished send chunk
+[2022-12-21 12:14:04][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 4194304
+[2022-12-21 12:14:05][notice]finished send chunk
+[2022-12-21 12:14:05][notice]Uploading www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip Total size: 38.53 MB Uploaded: 6.00 MB speed:1572.86kb/s
+[2022-12-21 12:14:05][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 6291456
+[2022-12-21 12:14:06][notice]finished send chunk
+[2022-12-21 12:14:06][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 8388608
+[2022-12-21 12:14:07][notice]finished send chunk
+[2022-12-21 12:14:07][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 10485760
+[2022-12-21 12:14:08][notice]finished send chunk
+[2022-12-21 12:14:08][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 12582912
+[2022-12-21 12:14:09][notice]finished send chunk
+[2022-12-21 12:14:09][notice]Uploading www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip Total size: 38.53 MB Uploaded: 14.00 MB speed:2097.15kb/s
+[2022-12-21 12:14:09][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 14680064
+[2022-12-21 12:14:10][notice]finished send chunk
+[2022-12-21 12:14:10][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 16777216
+[2022-12-21 12:14:11][notice]finished send chunk
+[2022-12-21 12:14:11][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 18874368
+[2022-12-21 12:14:12][notice]finished send chunk
+[2022-12-21 12:14:12][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 20971520
+[2022-12-21 12:14:13][notice]finished send chunk
+[2022-12-21 12:14:13][notice]Uploading www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip Total size: 38.53 MB Uploaded: 22.00 MB speed:2097.15kb/s
+[2022-12-21 12:14:13][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 23068672
+[2022-12-21 12:14:14][notice]finished send chunk
+[2022-12-21 12:14:14][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 25165824
+[2022-12-21 12:14:15][notice]finished send chunk
+[2022-12-21 12:14:15][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 27262976
+[2022-12-21 12:14:16][notice]finished send chunk
+[2022-12-21 12:14:16][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 29360128
+[2022-12-21 12:14:17][notice]finished send chunk
+[2022-12-21 12:14:17][notice]Uploading www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip Total size: 38.53 MB Uploaded: 30.00 MB speed:2097.15kb/s
+[2022-12-21 12:14:17][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 31457280
+[2022-12-21 12:14:18][notice]finished send chunk
+[2022-12-21 12:14:18][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 33554432
+[2022-12-21 12:14:19][notice]finished send chunk
+[2022-12-21 12:14:19][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 35651584
+[2022-12-21 12:14:20][notice]finished send chunk
+[2022-12-21 12:14:20][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 37748736
+[2022-12-21 12:14:21][notice]finished send chunk
+[2022-12-21 12:14:21][notice]Uploading www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip Total size: 38.53 MB Uploaded: 38.00 MB speed:2097.15kb/s
+[2022-12-21 12:14:21][notice]send chunk www.sachinpranav.com_wpvivid-63a2f87641f03_2022-12-21-12-13_backup_all.part002.zip offset 39845888
+[2022-12-21 12:14:22][notice]finished send chunk
+[2022-12-21 12:14:22][notice]upload finished
+[2022-12-21 12:14:22][notice]Cleaned up local files after uploading to remote storages.
+[2022-12-21 12:14:22][notice]Upload succeeded.
+[2022-12-21 12:14:22][notice]Upload finished. Delete task wpvivid-63a2f87641f03

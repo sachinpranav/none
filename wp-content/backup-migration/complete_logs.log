@@ -1,0 +1,16 @@
+[2023-02-25 09:38:00] [LOG] Plugin has been activated
+[2023-02-25 09:40:38] [LOG] Creating backup 
+[2023-02-25 09:40:38] [LOG] Found 4180 files to backup.
+[2023-02-25 09:41:09] [LOG] New backup created and its name is: BM_Backup_2023-02-25_09_40_37_SQOjeT4ZsR5bUzok.zip
+[2023-03-13 05:07:43] [LOG] Sending notification about backup being late
+[2023-03-13 05:07:43] [ERROR] Could not send the email notification about that fail
+[2023-03-13 05:07:43] [LOG] Displaying some issues about email sending...
+[2023-03-13 05:07:43] [LOG] Displaying some issues about email sending...
+[2023-03-13 05:08:30] [LOG] Backup failed to run on proper time, but running now.
+[2023-03-13 05:08:30] [LOG] Planned time: 2023-03-01 08:00:00
+[2023-03-13 05:08:30] [LOG] Sending notification about backup being late
+[2023-03-13 05:08:30] [LOG] Disallowing to send mail as today we already sent one.
+[2023-03-13 05:08:30] [LOG] Displaying some issues about email sending...
+[2023-03-13 05:08:30] [LOG] Automatic backup called at time: 2023-03-13, 05:08:30
+[2023-03-13 05:08:36] [LOG] Creating backup 
+[2023-03-13 05:08:36] [LOG] Found 5356 files to backup.

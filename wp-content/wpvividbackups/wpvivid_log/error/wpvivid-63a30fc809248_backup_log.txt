@@ -1,0 +1,52 @@
+Log created: 2022-12-21 13:53:12
+Type: backup
+[2022-12-21 13:53:12][notice]Start backing up.
+[2022-12-21 13:53:12][notice]server info fcgi:Off max execution time: 900 wp version:6.1.1 php version:8.0.26 db version:5.7.23 php ini:safe_mode: memory_limit:256M memory_get_usage:13.80 MB memory_get_peak_usage:13.92 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2022-12-21 13:53:12][notice]Prepare to backup backup_themes files.
+[2022-12-21 13:53:12][notice]File number: 1452
+[2022-12-21 13:53:12][notice]Start compressing backup_themes
+[2022-12-21 13:53:12][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_themes.zip
+[2022-12-21 13:53:13][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_themes.zip, filesize: 40.85 MB
+[2022-12-21 13:53:13][notice]Compressing backup_themes completed
+[2022-12-21 13:53:13][notice]Backing up backup_themes completed.
+[2022-12-21 13:53:13][notice]Prepare to backup backup_plugin files.
+[2022-12-21 13:53:13][notice]File number: 11679
+[2022-12-21 13:53:13][notice]Start compressing backup_plugin
+[2022-12-21 13:53:14][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_plugin.zip
+[2022-12-21 13:53:15][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_plugin.zip, filesize: 170.41 MB
+[2022-12-21 13:53:15][notice]Compressing backup_plugin completed
+[2022-12-21 13:53:15][notice]Backing up backup_plugin completed.
+[2022-12-21 13:53:15][notice]Prepare to backup backup_uploads files.
+[2022-12-21 13:53:15][notice]File number: 76
+[2022-12-21 13:53:15][notice]Start compressing backup_uploads
+[2022-12-21 13:53:15][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_uploads.zip
+[2022-12-21 13:53:15][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_uploads.zip, filesize: 6.14 MB
+[2022-12-21 13:53:15][notice]Compressing backup_uploads completed
+[2022-12-21 13:53:15][notice]Backing up backup_uploads completed.
+[2022-12-21 13:53:15][notice]Prepare to backup backup_content files.
+[2022-12-21 13:53:15][notice]File number: 10
+[2022-12-21 13:53:15][notice]Start compressing backup_content
+[2022-12-21 13:53:15][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_content.zip
+[2022-12-21 13:53:15][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_content.zip, filesize: 40.43 KB
+[2022-12-21 13:53:15][notice]Compressing backup_content completed
+[2022-12-21 13:53:15][notice]Backing up backup_content completed.
+[2022-12-21 13:53:15][notice]Prepare to backup backup_core files.
+[2022-12-21 13:53:15][notice]File number: 2530
+[2022-12-21 13:53:15][notice]Start compressing backup_core
+[2022-12-21 13:53:15][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_core.zip
+[2022-12-21 13:53:17][notice]Adding zip files completed.www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_core.zip, filesize: 13.29 MB
+[2022-12-21 13:53:17][notice]Compressing backup_core completed
+[2022-12-21 13:53:17][notice]Backing up backup_core completed.
+[2022-12-21 13:53:17][notice]Prepare to backup backup_merge files.
+[2022-12-21 13:53:17][notice]File number: 5
+[2022-12-21 13:53:17][notice]Start compressing backup_merge
+[2022-12-21 13:53:17][notice]Prepare to zip files. file: www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_all.part001.zip
+[2022-12-21 13:53:17][notice]Failed to add zip files, error: WPVIVID_PCLZIP_ERR_BAD_FORMAT (-10) : gzip temporary file '/home4/sachinpranav/public_html/wp-content/wpvividbackups/pclzip-63a30fcd580fb.gz' has invalid filesize - should be minimum 18 bytes
+[2022-12-21 13:53:17][notice]disk_free_space : 1.17 TB
+[2022-12-21 13:53:17][notice]Compressing backup_merge completed
+[2022-12-21 13:53:17][notice]Backing up backup_merge complet[2022-12-21 13:53:17][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_plugin.zip
+[2022-12-21 13:53:17][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_uploads.zip
+[2022-12-21 13:53:17][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_content.zip
+[2022-12-21 13:53:17][notice]Cleaned up file, filename: /home4/sachinpranav/public_html/wp-content/wpvividbackups/www.sachinpranav.com_wpvivid-63a30fc809248_2022-12-21-13-53_backup_core.zip
+[2022-12-21 13:53:17][error]Backup ends with an error WPVIVID_PCLZIP_ERR_BAD_FORMAT (-10) : gzip temporary file '/home4/sachinpranav/public_html/wp-content/wpvividbackups/pclzip-63a30fcd580fb.gz' has invalid filesize - should be minimum 18 bytes
+[2022-12-21 13:53:17][error]WPVIVID_PCLZIP_ERR_BAD_FORMAT (-10) : gzip temporary file '/home4/sachinpranav/public_html/wp-content/wpvividbackups/pclzip-63a30fcd580fb.gz' has invalid filesize - should be minimum 18 bytes

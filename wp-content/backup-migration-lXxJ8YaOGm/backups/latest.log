@@ -1,0 +1,100 @@
+[STEP] [2023-03-13 05:08:30] Looking for PHP CLI executable file.
+[WARN] [2023-03-13 05:08:30] Could not find proper PHP CLI executable, this process may be unstable.
+[WARN] [2023-03-13 05:08:30] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2023-03-13 05:08:30] Initializing backup...
+[INFO] [2023-03-13 05:08:30] Backup & Migration version: 1.2.7
+[INFO] [2023-03-13 05:08:30] Site which will be backed up: http://localhost/Highlifeindia/wordpress-5.7.2/wordpress
+[INFO] [2023-03-13 05:08:30] PHP Version: 8.0.25
+[INFO] [2023-03-13 05:08:30] WP Version: 6.1.1
+[INFO] [2023-03-13 05:08:30] MySQL Version: 10.4.27
+[INFO] [2023-03-13 05:08:30] MySQL Max Length: 1048576
+[INFO] [2023-03-13 05:08:30] Web server: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.0.25
+[INFO] [2023-03-13 05:08:30] Max execution time (in seconds): 259200
+[INFO] [2023-03-13 05:08:30] Max rows per query (this site): 2000
+[INFO] [2023-03-13 05:08:30] Checking if backup dir is writable...
+[INFO] [2023-03-13 05:08:30] Initializing custom error handler
+[SUCCESS] [2023-03-13 05:08:30] Yup it is writable...
+[STEP] [2023-03-13 05:08:30] Scanning files...
+[STEP] [2023-03-13 05:08:36] Checking free space, reserving...
+[INFO] [2023-03-13 05:08:36] Requires at least 91931908 bytes. [87.67 MB]
+[INFO] [2023-03-13 05:08:36] Disk free space function is not disabled - using it...
+[INFO] [2023-03-13 05:08:36] Checking this path/partition: C:\xampp\htdocs\Highlifeindia\wordpress-5.7.2\wordpress\wp-content\backup-migration-lXxJ8YaOGm\backups
+[SUCCESS] [2023-03-13 05:08:36] There is 29,589.79 MB free. [28.9 GB]
+[SUCCESS] [2023-03-13 05:08:36] Great! We have enough space.
+[SUCCESS] [2023-03-13 05:08:36] Confirmed, there is more than enough space, checked: 91931908 bytes
+[INFO] [2023-03-13 05:08:36] Scanning done - found 5356 files...
+[SUCCESS] [2023-03-13 05:08:36] Backup initialized...
+[STEP] [2023-03-13 05:08:36] Initializing archiving system...
+[SUCCESS] [2023-03-13 05:08:36] Archive system initialized...
+[STEP] [2023-03-13 05:08:36] Preparing map of files...
+[SUCCESS] [2023-03-13 05:08:36] Files prepared.
+[INFO] [2023-03-13 05:08:36] Starting compression process...
+[STEP] [2023-03-13 05:08:36] Smart memory calculation...
+[INFO] [2023-03-13 05:08:36] There is 512 MBs of memory to use
+[INFO] [2023-03-13 05:08:36] WordPress memory limit: 512 MBs
+[SUCCESS] [2023-03-13 05:08:36] Setting the safe limit to 115 MB
+[INFO] [2023-03-13 05:08:36] Using PclZip module to create the backup
+[INFO] [2023-03-13 05:08:36] Legacy setting: Using default modules depending on user server
+[STEP] [2023-03-13 05:08:36] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-03-13 05:08:36] Iterating database...
+[INFO] [2023-03-13 05:08:36] Memory usage after initialization: 65.17 MB
+[INFO] [2023-03-13 05:08:36] Scan found 19 tables (1110 rows), estimated total size: 52.53 MB.
+[INFO] [2023-03-13 05:08:36] Memory usage after getting table names: 65.18 MB 
+[INFO] [2023-03-13 05:08:36] Getting table recipes...
+[INFO] [2023-03-13 05:08:36] Table recipes have been exported.
+[INFO] [2023-03-13 05:08:36] Memory usage after loading recipes: 65.19 MB 
+[INFO] [2023-03-13 05:08:36] Saving recipes...
+[INFO] [2023-03-13 05:08:36] Recipes saved.
+[INFO] [2023-03-13 05:08:36] Memory usage after recipe off-load: 65.19 MB
+[INFO] [2023-03-13 05:08:36] Exporting table data...
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_actionscheduler_actions (1/19, 0.13 MB)
+[SUCCESS] [2023-03-13 05:08:36] Table export for: wp_actionscheduler_actions finished (0.00811s)
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_actionscheduler_claims (2/19, 0.03 MB)
+[INFO] [2023-03-13 05:08:36] Table wp_actionscheduler_claims is empty, saving only recipe.
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_actionscheduler_groups (3/19, 0.03 MB)
+[SUCCESS] [2023-03-13 05:08:36] Table export for: wp_actionscheduler_groups finished (0.00969s)
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_actionscheduler_logs (4/19, 0.05 MB)
+[SUCCESS] [2023-03-13 05:08:36] Table export for: wp_actionscheduler_logs finished (0.00620s)
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_commentmeta (5/19, 0.05 MB)
+[INFO] [2023-03-13 05:08:36] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_comments (6/19, 0.09 MB)
+[SUCCESS] [2023-03-13 05:08:36] Table export for: wp_comments finished (0.00570s)
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_imagify_files (7/19, 0.09 MB)
+[INFO] [2023-03-13 05:08:36] Table wp_imagify_files is empty, saving only recipe.
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_imagify_folders (8/19, 0.05 MB)
+[INFO] [2023-03-13 05:08:36] Table wp_imagify_folders is empty, saving only recipe.
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_links (9/19, 0.03 MB)
+[INFO] [2023-03-13 05:08:36] Table wp_links is empty, saving only recipe.
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_options (10/19, 2.06 MB)
+[SUCCESS] [2023-03-13 05:08:36] Table export for: wp_options finished (0.04456s)
+[STEP] [2023-03-13 05:08:36] Getting data of table: wp_postmeta (11/19, 49.41 MB)
+[SUCCESS] [2023-03-13 05:09:47] Table export for: wp_postmeta finished (70.57197s)
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_posts (12/19, 0.19 MB)
+[SUCCESS] [2023-03-13 05:09:47] Table export for: wp_posts finished (0.13210s)
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_term_relationships (13/19, 0.03 MB)
+[SUCCESS] [2023-03-13 05:09:47] Table export for: wp_term_relationships finished (0.00591s)
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_term_taxonomy (14/19, 0.05 MB)
+[SUCCESS] [2023-03-13 05:09:47] Table export for: wp_term_taxonomy finished (0.00753s)
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_termmeta (15/19, 0.05 MB)
+[INFO] [2023-03-13 05:09:47] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_terms (16/19, 0.05 MB)
+[SUCCESS] [2023-03-13 05:09:47] Table export for: wp_terms finished (0.00832s)
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_usermeta (17/19, 0.05 MB)
+[SUCCESS] [2023-03-13 05:09:47] Table export for: wp_usermeta finished (0.00817s)
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_users (18/19, 0.06 MB)
+[SUCCESS] [2023-03-13 05:09:47] Table export for: wp_users finished (0.00848s)
+[STEP] [2023-03-13 05:09:47] Getting data of table: wp_wpvivid_options (19/19, 0.03 MB)
+[INFO] [2023-03-13 05:09:47] Table wp_wpvivid_options is empty, saving only recipe.
+[INFO] [2023-03-13 05:09:47] Table data exported.
+[INFO] [2023-03-13 05:09:47] Memory usage after data export: 65.17 MB
+[INFO] [2023-03-13 05:09:47] Entire process took: 71.1637 s
+[SUCCESS] [2023-03-13 05:09:47] Database backup finished
+[STEP] [2023-03-13 05:09:47] Making archive
+[INFO] [2023-03-13 05:09:47] Compressing...
+[WARN] [2023-03-13 05:09:47] Backup will run as single-request, may be unstable...
+[STEP] [2023-03-13 05:09:47] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-03-13 05:09:49] Database added to the backup successfully.
+[STEP] [2023-03-13 05:09:49] Performing site files backup...
+[INFO] [2023-03-13 05:09:49] Chunks contain 500 files.
+[INFO] [2023-03-13 05:10:00] Milestone: 500/5356
+[INFO] [2023-03-13 05:10:09] Milestone: 1000/5356
